@@ -1,11 +1,12 @@
 #sum
 
-def somma(my_list):
-    sum = 0
-    for i in my_list:
-        sum += i
-    return f"The sum is {sum}"
+def somma(lista):
+    somma = 0 
 
-numbers = [1, 2, 3]
+    for i in lista:
+        somma += i
+    return somma
 
-print(somma(numbers))
+lista = [2, 3, 5, 9, 0]
+
+print(somma(lista))

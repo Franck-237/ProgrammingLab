@@ -6,10 +6,11 @@ def occurence(file, world):
     with open(file, "r") as file:
 
         content = file.read()
-        line = content.split()
+        line = content.lower().split()
+        print(line)
 
         for i in line:
-            if i == world:
+            if i == world.lower():
                 count += 1
             else:
                 pass

@@ -1,8 +1,8 @@
-number = int(input("Enter a number: "))
+numero = int(input("Scrivere un numero: "))
 
-for i in range(2, int(number**0.5) + 1):
-    if number % i == 0:
-        print(f"{number} it's not a prime number!")
-        break
+for i in range(2, numero+1):
+    if numero % i == 0 and numero % numero == 0:
+        print(f"{numero} non  e primo")
     else:
-        print(f"{number} it's a prime number")
+        print(f"{numero} e primo")
+        break

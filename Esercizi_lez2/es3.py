@@ -1,6 +1,6 @@
-number = int(input("Enter a number: "))
+numero = int(input("Enter un numero: "))
 
-if number % 2 == 0:
-    print("The number is pair!")
+if numero % 2 == 0:
+    print("Numero pari")
 else:
-    print("The number is dispair!")
+    print("Numero dispari!!")

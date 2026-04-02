@@ -1,12 +1,13 @@
 
 def remove(file1, file2):
-    count = 0
 
     with open(file1, "r") as file:
         content = file.read()
-        line = content.split()
+        line = content.lower().split()
+        #print(line)
 
         unique_words = set(line)
+        #print(unique_words)
 
     with open(file2, "w") as file:
         file.write("\n".join(unique_words))

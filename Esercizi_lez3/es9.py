@@ -7,7 +7,7 @@ def conteggio(file):
     with open(file, "r") as file:
 
         content = file.read()
-        line = content.split()
+        line = content.lower().split()
 
         for i in line:
             if i in dict_returned:
@@ -19,6 +19,4 @@ def conteggio(file):
 
 file_path = "Esercizi_lez3/files/words.txt"
 
-risult = conteggio(file_path)
-
-print(risult)
+print(conteggio(file_path))

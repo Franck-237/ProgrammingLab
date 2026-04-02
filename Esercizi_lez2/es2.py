@@ -1,6 +1,7 @@
-number = int(input("Enter a number: "))
+numero = int(input("Scrivere un numero: "))
 
-double = pow(number, 2)
-triple = pow(number, 3)
+quadrato = numero ** 2
+cubo = numero ** 3
 
-print(f"The double of {number} is: {double} and is triple is: {triple}")
+print(quadrato)
+print(cubo)

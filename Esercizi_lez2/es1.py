@@ -1,7 +1,6 @@
-minutes = 538
+minuti = 538
 
-hours = int(minutes / 60)
-mins = int(minutes % 60)
+ore = int(minuti / 60)
+minuti2 = int(minuti % 60)
 
-
-print(f"{hours}h : {mins}min")
+print(f"{ore}h : {minuti2}min.")

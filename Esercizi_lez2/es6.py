@@ -1,8 +1,10 @@
-sum = 0
-number = int(input("Enter a number: "))
+somma = 0
 
-while number != 0:
-    sum += number
-    number = int(input("Enter a number: "))
+while True:
+    numero = int(input("Inserire un numero (Scrive 0 per fermarsi.): "))
+    if numero == 0:
+        break
+    else:
+        somma += numero
 
-print(f"The total of all the numbers is: {sum}")
+print(somma)

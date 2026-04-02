@@ -1,12 +1,14 @@
 
-def number_letter(letter1, speaking):
+def conta_lettera(l, p):
     count = 0
-    for i in speaking:
-        if i == letter1:
+
+    for x in p:
+        if x == l:
             count += 1
     return count
 
-letter2 = "a"
-speak = input("Enter a speaking: ")
-number = number_letter(letter2, speak)
-print(number)
+lettera = "a"
+parola = "Sono informatica"
+
+resulto = conta_lettera(lettera, parola)
+print(resulto)
