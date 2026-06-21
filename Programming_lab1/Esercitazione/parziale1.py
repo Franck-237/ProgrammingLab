@@ -35,6 +35,7 @@ class CSVTimeSeriesFile:
                 raw_value = row[1].strip()
 
                 if not raw_value.isdigit():
+                    print("Riga ignorata!")
                     continue
 
                 parts = date.split("/")
